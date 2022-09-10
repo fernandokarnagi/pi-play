@@ -1,0 +1,5 @@
+Reference: https://appdividend.com/2021/03/26/python-unresolved-import/
+
+Type the Cmd / Ctrl + Shift + P → Python: Select Interpreter → choose the one with the packages you look for, and that is it.
+
+Path: D:\Workspace\WorkspaceCC\api\BE_SG_Tenure\cc\Scripts\python
