@@ -38,6 +38,7 @@ GPIO.setup(27, GPIO.IN)
 
 # Blink forever
 while True:
+    os.system('clear')
     print('01: ', GPIO.input(1))
     print('02: ', GPIO.input(2))
     print(GPIO.input(3))
@@ -65,5 +66,4 @@ while True:
     print(GPIO.input(25))
     print(GPIO.input(26))
     print(GPIO.input(27))
-    os.system('clear')
-    time.sleep(1)
+    time.sleep(2)
