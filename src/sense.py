@@ -1,5 +1,6 @@
 import time
 import RPi.GPIO as GPIO
+import os
 
 # Suppress warnings
 GPIO.setwarnings(False)
@@ -37,8 +38,8 @@ GPIO.setup(27, GPIO.IN)
 
 # Blink forever
 while True:
-    print(GPIO.input(1))
-    print(GPIO.input(2))
+    print('01: ', GPIO.input(1))
+    print('02: ', GPIO.input(2))
     print(GPIO.input(3))
     print(GPIO.input(4))
     print(GPIO.input(5))
@@ -64,4 +65,5 @@ while True:
     print(GPIO.input(25))
     print(GPIO.input(26))
     print(GPIO.input(27))
+    os.system('clear')
     time.sleep(1)
